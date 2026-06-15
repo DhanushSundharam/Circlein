@@ -4,7 +4,7 @@ import {
   Car, MapPin, Clock, ArrowRight, ChevronDown,
   Shield, Star, Phone, CheckCircle, Smile, Navigation, MessageCircle,
   PartyPopper, Briefcase, Users, HeartPulse,
-  Droplets, Wrench, Sparkles, Truck, User, Zap, Wind, Brush, Globe
+  Droplets, Wrench, Sparkles, Truck, User, Zap, Wind, Brush, Globe, Bike, Van, Bus
 } from 'lucide-react';
 import Logo from '../components/Logo';
 import './Landing.css';
@@ -64,6 +64,7 @@ const T = {
     washTag: 'All Vehicle Washing',
     washTitle: 'Sparkling clean — every time.',
     washSub: 'Book a professional vehicle washing through our trusted local washing partners and give your vehicle the premium care it deserves in Gobichettipalayam.',
+    washVehicles: ['Bike', 'Car', 'Auto / Mini', 'Traveller', 'Heavy Vehicle'],
     washCards: [
       { icon: <Droplets size={28}/>, color: '#3b82f6', bg: 'rgba(59,130,246,0.1)', title: 'Exterior Wash', desc: 'Full pressure rinse, foam wash, hand scrub & squeegee dry.' },
       { icon: <Wind size={28}/>, color: '#8b5cf6', bg: 'rgba(139,92,246,0.1)', title: 'Interior Clean', desc: 'Vacuum, dashboard wipe, mat clean & interior fresh spray.' },
@@ -136,6 +137,7 @@ const T = {
     washTag: 'அனைத்து வாகன கழுவுதல்',
     washTitle: 'சிறந்த முறையில் வாகன கழுவும் சேவை.',
     washSub: 'கோபிசெட்டிபாளையம் பகுதியில் எங்கள் நம்பகமான வாகன கழுவும் பார்ட்னர்கள் மூலம் உங்கள் வாகனத்திற்கு சிறந்த தொழில்முறை சேவையை பெறுங்கள்.',
+    washVehicles: ['பைக்', 'கார்', 'ஆட்டோ / மினி', 'டிராவலர்', 'கனரக வாகனம்'],
     washCards: [
       { icon: <Droplets size={28}/>, color: '#3b82f6', bg: 'rgba(59,130,246,0.1)', title: 'வெளிப்புற கழுவுதல்', desc: 'முழு அழுத்தம், நுரை கழுவுதல், கை தேய்ப்பு.' },
       { icon: <Wind size={28}/>, color: '#8b5cf6', bg: 'rgba(139,92,246,0.1)', title: 'உள்ளகம் சுத்தம்', desc: 'வேக்யூம், டாஷ்போர்டு துடைப்பு, மேட் சுத்தம்.' },
@@ -371,6 +373,29 @@ const Landing = () => {
             </div>
             <h2 className="lp-section-title" style={{color:'#0f172a'}}>{t.washTitle}</h2>
             <p className="lp-carwash-sub">{t.washSub}</p>
+
+            <div className="lp-wash-vehicles">
+              <div className="lp-wash-vehicle-item">
+                <div className="v-icon-wrap"><Bike size={24} /></div>
+                <span>{t.washVehicles[0]}</span>
+              </div>
+              <div className="lp-wash-vehicle-item">
+                <div className="v-icon-wrap"><Car size={24} /></div>
+                <span>{t.washVehicles[1]}</span>
+              </div>
+              <div className="lp-wash-vehicle-item">
+                <div className="v-icon-wrap"><Van size={24} /></div>
+                <span>{t.washVehicles[2]}</span>
+              </div>
+              <div className="lp-wash-vehicle-item">
+                <div className="v-icon-wrap"><Bus size={24} /></div>
+                <span>{t.washVehicles[3]}</span>
+              </div>
+              <div className="lp-wash-vehicle-item">
+                <div className="v-icon-wrap"><Truck size={24} /></div>
+                <span>{t.washVehicles[4]}</span>
+              </div>
+            </div>
           </div>
 
           {/* 4 Cards — Clean Scatter Layout */}
