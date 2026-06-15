@@ -61,8 +61,8 @@ const T = {
     ctaSub: 'Search for a driver near you right now — it only takes a minute.',
     ctaBtn: 'Find a Driver Near Me',
 
-    washTag: 'Official Washing Partners',
-    washTitle: 'Your vehicle\'s official spa partner.',
+    washTag: 'Official Partners',
+    washTitle: 'Premium vehicle care.',
     washSub: <>We've partnered with <strong style={{color: '#fff', fontWeight: 700}}>Gobichettipalayam’s</strong> finest washing stations to bring you premium care. From bikes to heavy lorries, our official partners ensure a sparkling showroom finish every time.</>,
     washVehicles: ['Bike', 'Car', 'Auto / Mini', 'Traveller', 'Heavy Vehicle'],
     washCards: [
@@ -134,8 +134,8 @@ const T = {
     ctaSub: 'உங்களுக்கு அருகில் ஓட்டுனரை தேடுங்கள் — ஒரு நிமிடம் மட்டுமே ஆகும்.',
     ctaBtn: 'அருகில் ஓட்டுனரை தேடு',
 
-    washTag: 'அதிகாரபூர்வ வாஷிங் பார்ட்னர்',
-    washTitle: 'உங்கள் வாகனத்தின் அதிகாரபூர்வ ஸ்பா பார்ட்னர்.',
+    washTag: 'அதிகாரபூர்வ பார்ட்னர்',
+    washTitle: 'சிறந்த வாகன பராமரிப்பு.',
     washSub: <><strong style={{color: '#fff', fontWeight: 700}}>கோபிசெட்டிபாளையத்தின்</strong> சிறந்த வாஷிங் ஸ்டேஷன்களுடன் நாங்கள் அதிகாரபூர்வமாக இணைந்துள்ளோம். பைக் முதல் கனரக லாரிகள் வரை, உங்கள் வாகனத்திற்கு சிறப்பான கவனிப்பை வழங்கி, புதியது போல் மிளிரச் செய்கிறோம்.</>,
     washVehicles: ['பைக்', 'கார்', 'ஆட்டோ / மினி', 'டிராவலர்', 'கனரக வாகனம்'],
     washCards: [
