@@ -21,7 +21,7 @@ const Logo = ({ size = 32, className = '' }) => (
       <path 
         d="M 32 60 C 32 30, 52 30, 56 46 C 58 56, 64 60, 68 48" 
         stroke="#0f172a" 
-        strokeWidth="12" 
+        strokeWidth="9" 
         strokeLinecap="round" 
         strokeLinejoin="round" 
         fill="none"
