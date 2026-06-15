@@ -63,7 +63,7 @@ const T = {
 
     washTag: 'Official Washing Partners',
     washTitle: 'Your vehicle\'s official spa partner.',
-    washSub: 'We\'ve partnered with Gobichettipalayam’s finest washing stations to bring you premium care. From bikes to heavy lorries, our official partners ensure a sparkling showroom finish every time.',
+    washSub: <>We've partnered with <strong style={{color: '#fff', fontWeight: 700}}>Gobichettipalayam’s</strong> finest washing stations to bring you premium care. From bikes to heavy lorries, our official partners ensure a sparkling showroom finish every time.</>,
     washVehicles: ['Bike', 'Car', 'Auto / Mini', 'Traveller', 'Heavy Vehicle'],
     washCards: [
       { icon: <Droplets size={28}/>, color: '#3b82f6', bg: 'rgba(59,130,246,0.1)', title: 'Exterior Wash', desc: 'Full pressure rinse, foam wash, hand scrub & squeegee dry.' },
@@ -136,7 +136,7 @@ const T = {
 
     washTag: 'அதிகாரபூர்வ வாஷிங் பார்ட்னர்',
     washTitle: 'உங்கள் வாகனத்தின் அதிகாரபூர்வ ஸ்பா பார்ட்னர்.',
-    washSub: 'கோபிசெட்டிபாளையத்தின் சிறந்த வாஷிங் ஸ்டேஷன்களுடன் நாங்கள் அதிகாரபூர்வமாக இணைந்துள்ளோம். பைக் முதல் கனரக லாரிகள் வரை, உங்கள் வாகனத்திற்கு சிறப்பான கவனிப்பை வழங்கி, புதியது போல் மிளிரச் செய்கிறோம்.',
+    washSub: <><strong style={{color: '#fff', fontWeight: 700}}>கோபிசெட்டிபாளையத்தின்</strong> சிறந்த வாஷிங் ஸ்டேஷன்களுடன் நாங்கள் அதிகாரபூர்வமாக இணைந்துள்ளோம். பைக் முதல் கனரக லாரிகள் வரை, உங்கள் வாகனத்திற்கு சிறப்பான கவனிப்பை வழங்கி, புதியது போல் மிளிரச் செய்கிறோம்.</>,
     washVehicles: ['பைக்', 'கார்', 'ஆட்டோ / மினி', 'டிராவலர்', 'கனரக வாகனம்'],
     washCards: [
       { icon: <Droplets size={28}/>, color: '#3b82f6', bg: 'rgba(59,130,246,0.1)', title: 'வெளிப்புற கழுவுதல்', desc: 'முழு அழுத்தம், நுரை கழுவுதல், கை தேய்ப்பு.' },
