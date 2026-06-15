@@ -61,9 +61,9 @@ const T = {
     ctaSub: 'Search for a driver near you right now — it only takes a minute.',
     ctaBtn: 'Find a Driver Near Me',
 
-    washTag: 'All Vehicle Washing',
-    washTitle: 'Sparkling clean — every time.',
-    washSub: 'Book a professional vehicle washing through our trusted local washing partners and give your vehicle the premium care it deserves in Gobichettipalayam.',
+    washTag: 'Official Washing Partners',
+    washTitle: 'Your vehicle\'s official spa partner.',
+    washSub: 'We\'ve partnered with Gobichettipalayam’s finest washing stations to bring you premium care. From bikes to heavy lorries, our official partners ensure a sparkling showroom finish every time.',
     washVehicles: ['Bike', 'Car', 'Auto / Mini', 'Traveller', 'Heavy Vehicle'],
     washCards: [
       { icon: <Droplets size={28}/>, color: '#3b82f6', bg: 'rgba(59,130,246,0.1)', title: 'Exterior Wash', desc: 'Full pressure rinse, foam wash, hand scrub & squeegee dry.' },
@@ -134,9 +134,9 @@ const T = {
     ctaSub: 'உங்களுக்கு அருகில் ஓட்டுனரை தேடுங்கள் — ஒரு நிமிடம் மட்டுமே ஆகும்.',
     ctaBtn: 'அருகில் ஓட்டுனரை தேடு',
 
-    washTag: 'அனைத்து வாகன கழுவுதல்',
-    washTitle: 'சிறந்த முறையில் வாகன கழுவும் சேவை.',
-    washSub: 'கோபிசெட்டிபாளையம் பகுதியில் எங்கள் நம்பகமான வாகன கழுவும் பார்ட்னர்கள் மூலம் உங்கள் வாகனத்திற்கு சிறந்த தொழில்முறை சேவையை பெறுங்கள்.',
+    washTag: 'அதிகாரபூர்வ வாஷிங் பார்ட்னர்',
+    washTitle: 'உங்கள் வாகனத்தின் அதிகாரபூர்வ ஸ்பா பார்ட்னர்.',
+    washSub: 'கோபிசெட்டிபாளையத்தின் சிறந்த வாஷிங் ஸ்டேஷன்களுடன் நாங்கள் அதிகாரபூர்வமாக இணைந்துள்ளோம். பைக் முதல் கனரக லாரிகள் வரை, உங்கள் வாகனத்திற்கு சிறப்பான கவனிப்பை வழங்கி, புதியது போல் மிளிரச் செய்கிறோம்.',
     washVehicles: ['பைக்', 'கார்', 'ஆட்டோ / மினி', 'டிராவலர்', 'கனரக வாகனம்'],
     washCards: [
       { icon: <Droplets size={28}/>, color: '#3b82f6', bg: 'rgba(59,130,246,0.1)', title: 'வெளிப்புற கழுவுதல்', desc: 'முழு அழுத்தம், நுரை கழுவுதல், கை தேய்ப்பு.' },
