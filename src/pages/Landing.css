@@ -197,7 +197,7 @@
 /* Middle-left - Premium Wash - slight tilt left */
 .fc-wash-card {
   top: 48%;
-  left: -2%;
+  left: 12%;
   transform: rotate(-2deg);
   animation: fcFloat5 6.5s ease-in-out infinite alternate-reverse;
 }
