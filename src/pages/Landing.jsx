@@ -21,6 +21,7 @@ const T = {
     chip: 'Trusted by families & professionals',
     heroTitle1: 'Your Car.',
     heroTitle2: 'Our Expert Drivers.',
+    heroTitle3: 'Your Comfort.',
     heroSub: <>Tired of driving or washing your vehicle? Hire a professional driver to drive your own car, or book a premium all vehicle washing. Available specifically in <strong className="lp-gradient-text">Gobichettipalayam</strong>.</>,
     heroCta1: 'Book a Driver',
     heroCta2: 'How it works',
@@ -92,6 +93,7 @@ const T = {
     chip: 'குடும்பங்கள் மற்றும் தொழில்முறையினர் நம்பும் சேவை',
     heroTitle1: 'உங்கள் கார்.',
     heroTitle2: 'எங்கள் சிறந்த ஓட்டுனர்கள்.',
+    heroTitle3: 'உங்கள் ஓய்வு.',
     heroSub: <>ஓட்டுவதில் அல்லது வாகனம் கழுவுவதில் சோர்வாக இருக்கிறீர்களா? உங்கள் சொந்த காரை ஓட்ட ஒரு தொழில்முறை ஓட்டுனரை அமர்த்துங்கள், அல்லது சிறந்த அனைத்து வாகன கழுவும் சேவையை பெறுங்கள். குறிப்பாக <strong className="lp-gradient-text">கோபிசெட்டிபாளையம்</strong> பகுதியில் மட்டும்.</>,
     heroCta1: 'ஓட்டுனரை பதிவு செய்',
     heroCta2: 'எப்படி செயல்படுகிறது',
@@ -263,7 +265,8 @@ const Landing = () => {
 
           <h1 className="lp-hero-title">
             {t.heroTitle1}<br />
-            <span className="lp-gradient-text">{t.heroTitle2}</span>
+            <span className="lp-gradient-text">{t.heroTitle2}</span><br />
+            {t.heroTitle3}
           </h1>
 
           <p className="lp-hero-sub">{t.heroSub}</p>
