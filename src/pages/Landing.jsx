@@ -221,6 +221,17 @@ const Landing = () => {
           </div>
         </div>
 
+        <div className="hero-floating-card fc-wash-card">
+          <div className="icon-circle" style={{background:'rgba(59,130,246,0.1)',color:'#3b82f6'}}>
+            <Droplets size={20} />
+          </div>
+          <div>
+            <p className="float-card-label">Premium Care</p>
+            <h4 className="float-card-title">Need a quick wash?</h4>
+            <p className="float-card-desc">Book a professional vehicle wash at your convenience.</p>
+          </div>
+        </div>
+
         <div className="hero-floating-card fc-family">
           <div className="icon-circle" style={{background:'rgba(16,185,129,0.1)',color:'#10b981'}}>
             <Users size={20} />

@@ -194,6 +194,13 @@
   transform: rotate(3deg);
   animation: fcFloat2 7s ease-in-out infinite alternate;
 }
+/* Middle-left - Premium Wash - slight tilt left */
+.fc-wash-card {
+  top: 48%;
+  left: -2%;
+  transform: rotate(-2deg);
+  animation: fcFloat5 6.5s ease-in-out infinite alternate-reverse;
+}
 /* Top-right — Business Travel — slight tilt right */
 .fc-business {
   top: 14%;
@@ -213,6 +220,7 @@
 @keyframes fcFloat2 { 0%{transform:rotate(3deg) translateY(0)} 100%{transform:rotate(3deg) translateY(-12px)} }
 @keyframes fcFloat3 { 0%{transform:rotate(4deg) translateY(0)} 100%{transform:rotate(4deg) translateY(-18px)} }
 @keyframes fcFloat4 { 0%{transform:rotate(-3deg) translateY(0)} 100%{transform:rotate(-3deg) translateY(-14px)} }
+@keyframes fcFloat5 { 0%{transform:rotate(-2deg) translateY(0)} 100%{transform:rotate(-2deg) translateY(-15px)} }
 
 /* Big Floating Logo on the right side */
 .hero-floating-logo {
