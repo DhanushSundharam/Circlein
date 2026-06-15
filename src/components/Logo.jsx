@@ -28,7 +28,7 @@ const Logo = ({ size = 32, className = '' }) => (
       />
       
       {/* Purple dot */}
-      <circle cx="74" cy="38" r="8" fill="#a855f7" />
+      <circle cx="72" cy="32" r="7.5" fill="#a855f7" />
     </g>
   </svg>
 );
