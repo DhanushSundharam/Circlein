@@ -20,7 +20,7 @@ const T = {
     langBtn: 'தமிழ்',
     chip: 'Trusted by families & professionals',
     heroTitle1: 'Your Car.',
-    heroTitle2: 'Our Expert Drivers.',
+    heroTitle2: 'Our Care.',
     heroTitle3: 'Your Comfort.',
     heroSub: <>Tired of driving or washing your vehicle? Hire a professional driver to drive your own car, or book a premium all vehicle washing. Available specifically in <strong className="lp-gradient-text">Gobichettipalayam</strong>.</>,
     heroCta1: 'Book a Driver',
@@ -87,7 +87,7 @@ const T = {
       { q: 'Is this service available outside Gobichettipalayam?', a: 'Currently, our services are exclusively available within Gobichettipalayam and surrounding nearby areas.' },
     ],
 
-    footer: '© 2025 CircleInd. Your car. Our drivers. Your comfort.',
+    footer: '© 2025 CircleInd. Your Car. Our Care. Your Comfort.',
   },
   ta: {
     langBtn: 'English',
@@ -160,7 +160,7 @@ const T = {
       { q: 'இந்த சேவை கோபிசெட்டிபாளையத்திற்கு வெளியே கிடைக்குமா?', a: 'தற்போது, எங்கள் சேவைகள் கோபிசெட்டிபாளையம் மற்றும் அதனை சுற்றியுள்ள பகுதிகளில் மட்டுமே கிடைக்கிறது.' },
     ],
 
-    footer: '© 2025 CircleInd. உங்கள் கார். எங்கள் ஓட்டுனர். உங்கள் ஓய்வு.',
+    footer: '© 2025 CircleInd. உங்கள் கார். எங்கள் அக்கறை. உங்கள் ஓய்வு.',
   },
 };
 
