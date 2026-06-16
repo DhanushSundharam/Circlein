@@ -11,7 +11,7 @@ import './Landing.css';
 
 // ── Change this to your WhatsApp number ──
 const WA_NUMBER = '918838038494'; // +91 88380 38494
-const WA_MESSAGE = encodeURIComponent('Hi! I want to book a driver through CircleIn.');
+const WA_MESSAGE = encodeURIComponent('Hi! I want to book a driver through CircleInd.');
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 const WA_QR = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(WA_LINK)}&color=6d28d9&bgcolor=ffffff&margin=12`;
 
@@ -31,7 +31,7 @@ const T = {
     cardEtaMin: '3 min',
 
     whoTitle: 'Who is this for?',
-    whoSub: 'CircleIn is perfect for anyone who owns a car but doesn\'t want to drive right now.',
+    whoSub: 'CircleInd is perfect for anyone who owns a car but doesn\'t want to drive right now.',
     whoCards: [
       { icon: <PartyPopper size={32}/>, title: 'Night Out?', desc: 'Going to a party or wedding? Hire a driver, enjoy your evening, and get home safely in your own car.' },
       { icon: <Briefcase size={32}/>, title: 'Business Travel', desc: 'Have an important meeting? Let a professional drive while you prepare, make calls, or rest.' },
@@ -47,7 +47,7 @@ const T = {
       { icon: <Car size={28}/>, title: 'Driver Arrives', desc: 'A verified, rated driver arrives at your car and drives you wherever you need to go.' },
     ],
 
-    whyTitle: 'Why customers love CircleIn',
+    whyTitle: 'Why customers love CircleInd',
     whyCards: [
       { icon: <Shield size={24}/>, title: 'Verified & Safe', desc: 'Every driver is background-checked, licensed, and reviewed by real customers before joining.' },
       { icon: <Star size={24}/>, title: 'Rated by Real Users', desc: 'Read honest reviews from other customers. You choose the driver you trust.' },
@@ -87,7 +87,7 @@ const T = {
       { q: 'Is this service available outside Gobichettipalayam?', a: 'Currently, our services are exclusively available within Gobichettipalayam and surrounding nearby areas.' },
     ],
 
-    footer: '© 2025 CircleIn. Your car. Our drivers. Your comfort.',
+    footer: '© 2025 CircleInd. Your car. Our drivers. Your comfort.',
   },
   ta: {
     langBtn: 'English',
@@ -104,7 +104,7 @@ const T = {
     cardEtaMin: '3 நிமிடம்',
 
     whoTitle: 'யாருக்கு இது பயன்படும்?',
-    whoSub: 'சொந்த கார் இருக்கிறது, ஆனால் இப்போது ஓட்ட விரும்பவில்லையா? CircleIn உங்களுக்கானது.',
+    whoSub: 'சொந்த கார் இருக்கிறது, ஆனால் இப்போது ஓட்ட விரும்பவில்லையா? CircleInd உங்களுக்கானது.',
     whoCards: [
       { icon: <PartyPopper size={32}/>, title: 'விழா / பார்ட்டி?', desc: 'திருமணம் அல்லது விழாவுக்கு செல்கிறீர்களா? ஓட்டுனரை அமர்த்துங்கள், மகிழ்ச்சியாக திரும்புங்கள்.' },
       { icon: <Briefcase size={32}/>, title: 'வணிக பயணம்', desc: 'முக்கியமான கூட்டம் உள்ளதா? தொழில்முறை ஓட்டுனர் ஓட்ட, நீங்கள் தயாரிக்கலாம்.' },
@@ -120,7 +120,7 @@ const T = {
       { icon: <Car size={28}/>, title: 'ஓட்டுனர் வருகிறார்', desc: 'சரிபார்க்கப்பட்ட, மதிப்பிடப்பட்ட ஓட்டுனர் உங்கள் காரில் வந்து ஓட்டுவார்.' },
     ],
 
-    whyTitle: 'வாடிக்கையாளர்கள் CircleIn ஐ ஏன் விரும்புகிறார்கள்',
+    whyTitle: 'வாடிக்கையாளர்கள் CircleInd ஐ ஏன் விரும்புகிறார்கள்',
     whyCards: [
       { icon: <Shield size={24}/>, title: 'சரிபார்க்கப்பட்ட & பாதுகாப்பான', desc: 'ஒவ்வொரு ஓட்டுனரும் பின்னணி சரிபார்ப்பு மற்றும் உரிமம் பெற்றவர்.' },
       { icon: <Star size={24}/>, title: 'உண்மையான மதிப்பீடுகள்', desc: 'மற்ற வாடிக்கையாளர்களின் உண்மையான மதிப்புரைகளை படியுங்கள்.' },
@@ -160,7 +160,7 @@ const T = {
       { q: 'இந்த சேவை கோபிசெட்டிபாளையத்திற்கு வெளியே கிடைக்குமா?', a: 'தற்போது, எங்கள் சேவைகள் கோபிசெட்டிபாளையம் மற்றும் அதனை சுற்றியுள்ள பகுதிகளில் மட்டுமே கிடைக்கிறது.' },
     ],
 
-    footer: '© 2025 CircleIn. உங்கள் கார். எங்கள் ஓட்டுனர். உங்கள் ஓய்வு.',
+    footer: '© 2025 CircleInd. உங்கள் கார். எங்கள் ஓட்டுனர். உங்கள் ஓய்வு.',
   },
 };
 
@@ -329,7 +329,7 @@ const Landing = () => {
             </div>
 
             <div className="radar-status">
-              <span className="status-dot"></span> CircleIn: Finding drivers, car wash...
+              <span className="status-dot"></span> CircleInd: Finding drivers, car wash...
             </div>
           </div>
         </div>
@@ -521,7 +521,7 @@ const Landing = () => {
         <div className="lp-footer-divider" />
         <div className="lp-footer-brand">
           <Logo size={22} />
-          <span>{lang === 'en' ? 'CircleIn' : 'CircleIn'}</span>
+          <span>{lang === 'en' ? 'CircleInd' : 'CircleInd'}</span>
         </div>
         <div className="lp-footer-contact">
           <a href="mailto:circleindrive@gmail.com">circleindrive@gmail.com</a>

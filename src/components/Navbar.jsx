@@ -72,7 +72,7 @@ const Navbar = ({ user, setUser }) => {
         {/* Brand */}
         <Link to="/" className="navbar-brand flex items-center gap-sm" style={{textDecoration: 'none'}}>
           <Logo size={28} />
-          <h2 style={{color: 'var(--text-primary)'}}>CircleIn</h2>
+          <h2 style={{color: 'var(--text-primary)'}}>CircleInd</h2>
         </Link>
 
         {/* Nav Links — only show on landing */}
